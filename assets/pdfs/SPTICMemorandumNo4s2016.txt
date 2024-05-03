@@ -1,0 +1,417 @@
+﻿GENERAL GUIDELINES ON LEARNING ASSESSMENT AND EVALUATION
+(SPTIC Memorandum No. 4, s. 2016)
+
+
+    1. This general guidelines is in line with the vision, mission, goals, and objectives of St. Paul Technological Institute of Cavite, Inc. in consonance with the guidelines enumerated and stipulated under DepEd Order No. 8, s. 2015.
+
+    2. Assessment and evaluation are important mechanisms in order to ensure that St. Paul TIC delivers the quality of instruction needed in a progressive and inclusive education where experiential learning and holistic development of an individual is the ultimate goal towards the achievement of its vision and mission.
+
+    3. Assessment shall refer to all forms and types of methodologies, tests, strategies, and relevant measures towards mastery of a concept or topic by the learners. It shall also mean as series of drills, exercises, quizzes, and activities, either oral, performance, or written, that are developed, employed, and implemented by the teacher to effect mastery which can be given anytime during the class period, daily, or weekly. Assessment in this context is formative in nature and can be done as often as the teacher deem it necessary to help the learners significantly improve their learning performance. Results of the daily and weekly assessments are recorded, analyzed, and interpreted by the teacher to determine the level of mastery of the learners in a particular concept or topic but shall not be the basis for grading the learners.
+
+Assessment shall be indicative of how the teacher sets the pacing of the lesson depending on the level of mastery of the learner before a new lesson can be introduced. Table 1 shall be used in interpreting the result of the learners’ assessment, and in deciding when to continue or introduce a new concept or topic.
+
+
+Table 1
+Table of Computed Mastery Level
+
+RANGE OF COMPUTED MASTERY (%)
+DESCRIPTOR
+DECISION
+
+90 - 100
+
+Mastered 
+Continue/introduce new lesson or concept
+
+80 - 89
+
+Nearly Mastered
+Provide additional activities, drills, and exercises
+
+70 - 79
+
+Approaching Mastery
+Supply more activities that will enhance or reinforce mastery of the concept/topic
+
+69 and below
+
+Not mastered
+Re-teach the lesson using different method or strategy
+
+
+
+
+
+
+
+To determine the level of mastery of a learner, the following formula must be used by the teacher in the interpretation of the result of the assessment given to the learner:
+
+Mastery Level = No. of total correct responses divided by no. of test items multiplied by 100
+
+
+
+
+
+
+
+In order to proceed into the next lesson, the class shall have an average mastery of 90% computed as follows:
+
+Class Average Mastery (CAM) = Total Individual Learner’s Mastery (∑M) divided by Total No. of Enrolled Students in the Class (N)
+
+
+
+
+
+
+
+    4. Evaluation on the other hand shall refer to summative assessments which is composed of the following: Monthly Tests (given at the end or beginning of the month) and Periodical Test (given at the end of each quarter); written outputs (at least two individual and one group outputs per quarter), and performance tasks (at least two individual, one group performance tasks or projects, and participation in the grade level culminating activity). 
+
+Evaluation measures the achievement or learning performance of the learners which involves retention, understanding, remembering, experiencing, manipulating, applying, producing, and transferring the concepts or lessons learned within a quarter. These are translated into numeral data using rubrics and criteria developed or adopted by the teacher. All evaluation results are recorded and graded which means, it serves as basis in the computation of grades at the end of every grading period. 
+
+Table 2 shows the components of evaluation and their corresponding weights in the computation of the final grades in each of the learning areas.
+
+Table 2
+Components of Evaluation
+
+COMPONENT
+
+MINIMUM
+
+MAXIMUM
+WEIGHT  COMPONENT
+
+
+
+Languages, AP, & EsP
+Math & Science
+MAPEH & TLE
+Monthly Test
+2 per Quarter
+3 per Quarter
+
+20%
+
+20%
+
+20%
+Periodical Test
+
+1 per quarter
+
+
+
+
+Written Output
+2 per Quarter (1 individual and 1 group)
+4 per Quarter (2 individual, 2 group )
+
+30%
+
+40%
+
+20%
+
+
+Performance Task
+2 per Quarter (1 individual and 1 group or culminating activity)
+4 per quarter (2 individual and 2 group or culminating activity or as the teacher sees fit)
+
+
+50%
+
+
+40%
+
+
+60%
+TOTAL WEIGHT
+
+
+100%
+100%
+100%
+
+To compute grade in Written Outputs, get the corresponding Percentage Score and Weight of component using the following formula:
+
+Written Outputs (WO) = Sum of Scores in Written Outputs (∑WO1) divided by the Sum of the Highest Possible Scores for the Written Outputs (∑WO2) multiplied by 100 times Weight Component (20%)
+
+
+Illustrative Example:
+
+
+
+
+
+
+To compute grade in Performance Tasks, get the corresponding Percentage Score and Weight of the component using the following formula:
+
+Performance Tasks (PTs) = Sum of Scores in Performance Tasks (∑PTs1) divided by the Sum of the Highest Possible Scores for the Performance Tasks (∑PTs0) multiplied by 100 times the Weight Component (60%)
+
+
+
+Illustrative Example:
+
+
+
+
+
+
+Monthly Tests and Periodical Tests form part of the Quarterly Assessment and to compute grade in this component, get the corresponding Percentage Score and Weight of the component using the following formula:
+
+Quarterly Assessment (QA) = Sum of the Raw Scores in Monthly Tests and Periodical Test (∑mtpt) divided by Sum of the Highest Possible Scores in Monthly Tests and Periodical Test (∑MTPT) multiplied by 100 times the Weight Component (20%)
+
+
+
+Illustrative Example:
+
+
+
+
+
+
+To get the Final Grade of the learner in the learning area, simply ADD the corresponding weights derived after multiplying the Percentage Score (PS) to the Weight Component for each of the components of evaluation.
+
+Final Grade (FG) = Derived Weight for Written Outputs (WO) plus Derived Weight for Performance Tasks (PTs) plus Derived Weight for Quarterly Assessment (QA)
+
+Illustrative Example:
+
+
+
+
+
+    5. Assessments must be used to diagnose the individual and class performance during a short duration of time within a grading period or quarter. There can be different forms of assessments in one class, may happen any time, and may be given individually or by group. Assessment does not affect the computation of grades but significant in forecasting how it would likely to be the grade of an individual learner. On the other hand, evaluation shall be used to determine the achievement level or learning performance of the learners and shall encompass the entire grading period and should always be structured, announced, time-specific, and mostly given individually or derived as a fraction of grade from a group achievement. It is structured in the sense that it follows certain format, institutional norms, and sets of standards.
+
+    6. Projects, as part of Performance Tasks assessment, shall be directly related to the lesson and in no instance, shall be very expensive. All school projects must be output-based and should be used only in the following instances: skills development and enhancement, application or testing of the concept/s learned, and in transferring knowledge. Output or product derived from the completion of a project shall be returned to the learner. Grades from projects completed must focus on the following: 60% attitude manifested and developed in working alone or with another, 20 % for the knowledge gained after completing the project; and 20% for the individual skills developed.
+
+Template 1 shall be used as template in the computation of grades for projects.
+
+Template 1
+Computation of Grades for Projects
+(with illustrative examples)
+
+SUMMARY OF GRADE
+NAME OF THE LEARNER
+GRADE/
+SECTION
+ATTITUDE
+(50%)
+KNOWLEDGE
+(20%)
+SKILLS
+(30%)
+TOTAL
+(100%)
+A
+7
+47.14
+19.20
+27.60
+93.94
+
+
+
+
+
+
+
+
+
+
+
+
+
+ATTITUDE
+
+PERFORMANCE INDICATORS
+HIGHEST POSSIBLE POINTS
+ACTUALLY OBSERVED
+
+Manifested high level of patience (3) and self-control (2)
+
+5
+
+5
+
+Showed respect (3) and appreciation (2) of the inputs from other group members
+
+5
+
+4
+
+Displayed positivism (2) and flexibility in dealing with difficult or challenging situations (3)
+
+5
+
+5
+
+Enhanced interpersonal relationship with others 
+
+5
+
+5
+
+Observed honesty, integrity, and humility in the entire process of project completion from beginning (accepting the responsibility) until the culmination of the project (presentation of output)
+
+
+15
+
+
+14
+
+Total Points divided Highest Possible Points multiplied by 100 times 50%
+()
+
+35
+
+33
+
+
+Illustrative Example
+
+
+ = 37.14
+
+
+
+
+
+
+
+
+
+
+
+
+
+KNOWLEDGE
+
+PERFORMANCE INDICATORS
+HIGHEST POSSIBLE POINTS
+ACTUALLY OBSERVED
+
+Showed a significant increase in enhancing and developing the learner/s knowledge by:
+    a) Sharing meaningful insights discovered or realized after making the project (20)
+    b) Relating the previously known information that was corrected, clarified, or intensified through the project (30)
+
+
+
+
+
+
+50
+
+
+
+
+
+18
+30
+
+Total Points divided Highest Possible Points multiplied by 100 times 20%
+()
+
+50
+
+48
+
+
+Illustrative Example
+
+
+= 19.2
+
+
+
+
+
+
+
+
+
+
+
+SKILLS
+
+PERFORMANCE INDICATORS
+HIGHEST POSSIBLE POINTS
+ACTUALLY OBSERVED
+
+Presented a clear reflections after completing the project that proved to help the learner/s in:
+
+    a) Understanding the practical and actual application of the concept/s learned (30)
+    b) Resolving challenges and conflicts applying the concept, principle, strategy, or method learned from the project (20)
+
+
+
+
+
+
+
+50
+
+
+
+
+
+28
+18
+
+Total Points divided Highest Possible Points multiplied by 100 times 30%
+()
+
+50
+
+46
+
+
+Illustrative Example
+
+
+= 27.6
+
+Template 2 shall be used by the learner as a project completion requirement and must be filled out by the learner or the group leader (in case of group project).
+
+Template 2
+Project Learning Reflection Guide
+Name/s of the Learner/S Assigned with a Project
+
+Date of Assignment
+
+Expected Completion Days
+
+Actual Date Completed
+
+Principle or Concept Involve
+
+LEARNING REFLECTION GUIDE
+How did you applied, observed, or developed the following: patience and self-control, respect and appreciation of other’s idea, flexibility in handling difficult challenges and situations, interpersonal skills, honesty, integrity, and humility?
+
+
+What have you discovered after completing the project?
+
+
+
+Does the project makes sense? Why? How?
+
+
+
+What are your previous understanding of the principle or concept, knowledge or information that you have gained, developed, or enhanced after completing the project?
+
+
+Does the project helped you in relating and applying the concept or principle in real life situations? How? Why?
+
+
+
+How will you apply the principle or concept that you have learned based from the project you have just completed?
+
+
+
+
+    7. Teachers can design and customize their own assessment tools for their respective learning areas carefully addressing diversities inside the classroom and the readiness of the learners to learn. For evaluation, teachers are required to submit the required evaluation tools (such as tests and teacher-made rubrics) at least one week before the actual conduct of evaluation. Unless otherwise provided, all evaluation tools must be reviewed and approved first by the Executive Committee before it can be used or implemented.
+
+    8. These General Guidelines are intended for exclusive use of St. Paul Technological Institute of Cavite, Inc. faculty only and no part of this Memorandum may be copied, transmitted, or duplicated in any form by any person or institution without prior written approval from the Executive Committee.
+
+    9. All previous pronouncements and announcements that are inconsistent with these guidelines are hereby set aside and disregarded. This memorandum will take immediately after issuance and shall remain in force until sooner or later changed, modified, or declared contrary to existing government regulations. 
+
+
+

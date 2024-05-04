@@ -2003,6 +2003,9 @@ section {
   font-weight: 600;
 }
 
+.redtext{
+color: red;
+}
 .contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }

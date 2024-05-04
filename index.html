@@ -794,25 +794,63 @@
           </div>
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
             <form action="https://api.web3forms.com/submit" method="POST" class="php-email-form">
+              <input type="hidden" name="access_key" value="87a56a0c-252b-4b5a-b8a0-7ef3fcfee4ee">
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+              <input type="hidden" name="subject" value="Inquiry">
               <div class="row">
-                    <!-- Replace with your Access Key -->
-    <input type="hidden" name="access_key" value="dabfb0f7-a86a-4ba3-a79f-30756ca34af1">
-    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-
                 <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
+                  <label for="name">Your Name<span class="redtext"> *</span></label>
                   <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
+                  <label for="name">Your Email<span class="redtext"> *</span></label>
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="Mobile Number">Your Mobile Number<span class="redtext"> *</span></label>
+                  <input type="text" name="Mobile Number" class="form-control" id="Mobile Number" required onchange="validatePhilippineMobile(this)">
+                </div>
+                
+                <script>
+                function validatePhilippineMobile(inputField) {
+                  // Regular expression for Philippine mobile numbers
+                  const philippineMobileRegex = /^09\d{9}$/;
+                
+                  // Check if the input value matches the regex
+                  if (!philippineMobileRegex.test(inputField.value)) {
+                    alert("Please enter a valid Philippine mobile number. It should start with 09 and be followed by 9 digits.");
+                    inputField.value = ""; // Clear the input field if invalid
+                  }
+                }
+                </script>
+                <div class="form-group col-md-6">
+                  <label for="Grade Level">Your Grade Level<span class="redtext"> *</span></label>
+                  <select name="Grade Level" class="form-control" id="Grade Level" required>
+                    <option value="" selected hidden>Select Grade</option>
+                    <option value="Kinder">Kinder</option>
+                    <option value="Grade 1">Grade 1</option>
+                    <option value="Grade 2">Grade 2</option>
+                    <option value="Grade 2">Grade 3</option>
+                    <option value="Grade 2">Grade 4</option>
+                    <option value="Grade 2">Grade 5</option>
+                    <option value="Grade 2">Grade 6</option>
+                    <option value="Grade 2">Grade 7</option>
+                    <option value="Grade 2">Grade 8</option>
+                    <option value="Grade 2">Grade 9</option>
+                    <option value="Grade 2">Grade 10</option>
+                    <option value="Grade 2">Grade 11</option>
+                    <option value="Grade 12">Grade 12</option>
+                    <option value="Guest">Guest</option>
+                  </select>
+                </div>
+              </div>
               <div class="form-group">
-                <label for="name">Message</label>
+                <label for="name">Message<span class="redtext"> *</span></label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
-              <div class="h-captcha" data-captcha="true"></div>
+              <div class="h-captcha" data-captcha="true" required></div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
@@ -835,6 +873,19 @@
                 // Add more complex validation here (optional)
                 return true;
               }
+
+              const form = document.querySelector('.php-email-form'); // Select the form element
+
+              form.addEventListener('submit', function(event) {
+                if (!window.hcaptcha.getResponse()) {
+                  event.preventDefault(); // Prevent form submission
+                  Swal.fire({
+                    title: "Complete the Hcaptcha",
+                    text: "Complete the hcaptcha before submitting the form.",
+                    icon: "error"
+                  });
+                }
+              });
               </script>
           </div>
         </div>
@@ -952,11 +1003,14 @@
   <div id="preloader">
     <img src="assets/img/logosptic.png" alt="Logo" class="preloader-logo">
   </div>
+  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-3d140d3f-28bd-4a0d-a5af-120e9dec4eb3" data-elfsight-app-lazy></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="https://web3forms.com/client/script.js" async defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/js/modal.js"></script>

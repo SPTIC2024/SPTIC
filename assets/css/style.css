@@ -265,7 +265,7 @@ body.modal-open {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 1;
   padding: 15px 0;
 }
 
@@ -2003,6 +2003,9 @@ section {
   font-weight: 600;
 }
 
+.redtext{
+color: red;
+}
 .contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }

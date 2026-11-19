@@ -71,6 +71,17 @@ updateBackToTop();
 
 if (typeof GLightbox === "function") GLightbox();
 
+if (typeof AOS !== "undefined") {
+  AOS.init({ duration: 1000, easing: "ease-in-out", once: true, mirror: false });
+
+  let refreshTimer;
+  const resizeObserver = new ResizeObserver(() => {
+    clearTimeout(refreshTimer);
+    refreshTimer = setTimeout(() => AOS.refresh(), 150);
+  });
+  resizeObserver.observe(document.querySelector("main"));
+}
+
 const filters = document.querySelectorAll(".facility-filter");
 const facilities = [...document.querySelectorAll(".facility-card")];
 const facilityAnimations = new Map();

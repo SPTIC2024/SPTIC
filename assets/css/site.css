@@ -12,6 +12,13 @@
 }
 
 body { color: var(--ink); background: var(--paper); font: 1rem/1.65 var(--body); }
+main { overflow-x: clip; }
+[data-aos]:focus-within,
+body:not([data-aos-easing]) [data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+  pointer-events: auto !important;
+}
 h1, h2, h3, h4, h5, h6 { font-family: var(--display); font-weight: 800; letter-spacing: -.035em; }
 p { margin-bottom: 1rem; }
 a { color: #273b70; }
@@ -306,7 +313,6 @@ section { padding-block: clamp(3.25rem, 6vw, 5.5rem); }
 @media (prefers-reduced-motion: no-preference) {
   html { scroll-behavior: smooth; }
 
-  .campus-intro { animation: campus-intro-in 460ms var(--ease-out) both; }
   .subpage-hero-grid > div { animation: rise-in 480ms var(--ease-out) both; }
   .subpage-hero-grid > img { animation: rise-in 560ms var(--ease-out) 65ms both; }
 
@@ -360,7 +366,6 @@ section { padding-block: clamp(3.25rem, 6vw, 5.5rem); }
 
 @keyframes page-out { to { opacity: 0; } }
 @keyframes page-in { from { opacity: 0; transform: translateY(5px); } }
-@keyframes campus-intro-in { from { translate: 0 .6rem; } }
 
 @keyframes rise-in {
   from { opacity: 0; translate: 0 .55rem; }

@@ -31,7 +31,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/aos/aos.css" media="(prefers-reduced-motion: no-preference)">
   <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/vendor/aos/aos.js" defer></script>
   <script src="assets/js/site.js" defer></script>
 </head>
 
@@ -60,7 +62,7 @@
   <main id="main" tabindex="-1">
     <section id="hero" class="campus-hero" aria-labelledby="home-title">
       <div class="container campus-hero-grid">
-        <div class="campus-intro">
+        <div class="campus-intro" data-aos="fade-up" data-aos-delay="200">
           <p class="eyebrow"><span></span> St. Paul Technological Institute of Cavite, Inc.</p>
           <h1 id="home-title">Learn and grow<br><em>at St. Paul TIC.</em></h1>
           <p>From Kindergarten to Senior High School, explore what learning looks like on our Dasmariñas campus.</p>
@@ -70,7 +72,7 @@
           </div>
         </div>
         <figure class="campus-photo">
-          <img src="assets/img/backgroundschool.jpeg" alt="School buildings and covered entrance at the St. Paul TIC campus" fetchpriority="high">
+          <img src="assets/img/backgroundschool.jpeg" alt="School buildings and covered entrance at the St. Paul TIC campus" fetchpriority="high" data-aos="zoom-in" data-aos-delay="200">
           <figcaption><i class="bi bi-geo-alt" aria-hidden="true"></i> Langkaan I, Dasmariñas, Cavite</figcaption>
         </figure>
       </div>
@@ -85,25 +87,25 @@
     </div>
     <section id="services" class="academic-programs">
       <div class="container">
-        <div class="section-heading-row">
+        <div class="section-heading-row" data-aos="fade-up">
           <div><h2>Academic programs</h2><p>Find your child’s next step, from Kindergarten to Senior High School.</p></div>
           <a class="site-button outline" href="services.html#portfolio-details">View requirements</a>
         </div>
         <div class="program-grid">
-          <a class="program-card" href="services.html#kindergarten">
-            <div class="program-image"><img src="assets/img/students/kindergarten.jpg" width="800" height="1000" alt="" loading="lazy"></div>
+          <a class="program-card" href="services.html#kindergarten" data-aos="zoom-in" data-aos-delay="100">
+            <div class="program-image" data-aos="zoom-in" data-aos-delay="200"><img src="assets/img/students/kindergarten.jpg" width="800" height="1000" alt="" loading="lazy"></div>
             <div class="program-copy"><p class="program-grade">Early years</p><h3>Kindergarten</h3><p>Build early learning and social skills through play and classroom activities.</p></div>
           </a>
-          <a class="program-card" href="services.html#primary">
-            <div class="program-image"><img src="assets/img/students/primary.jpg" width="800" height="1000" alt="" loading="lazy"></div>
+          <a class="program-card" href="services.html#primary" data-aos="zoom-in" data-aos-delay="200">
+            <div class="program-image" data-aos="zoom-in" data-aos-delay="200"><img src="assets/img/students/primary.jpg" width="800" height="1000" alt="" loading="lazy"></div>
             <div class="program-copy"><p class="program-grade">Grades 1–6</p><h3>Primary School</h3><p>Develop core skills across the subjects that lay the foundation for high school.</p></div>
           </a>
-          <a class="program-card" href="services.html#junior">
-            <div class="program-image"><img src="assets/img/students/junior-high.jpg" width="800" height="1000" alt="" loading="lazy"></div>
+          <a class="program-card" href="services.html#junior" data-aos="zoom-in" data-aos-delay="300">
+            <div class="program-image" data-aos="zoom-in" data-aos-delay="200"><img src="assets/img/students/junior-high.jpg" width="800" height="1000" alt="" loading="lazy"></div>
             <div class="program-copy"><p class="program-grade">Grades 7–10</p><h3>Junior High School</h3><p>Build on core subjects and strengthen thinking and study skills.</p></div>
           </a>
-          <a class="program-card" href="services.html#senior">
-            <div class="program-image"><img src="assets/img/students/senior-high.jpg" width="800" height="1000" alt="" loading="lazy"></div>
+          <a class="program-card" href="services.html#senior" data-aos="zoom-in" data-aos-delay="400">
+            <div class="program-image" data-aos="zoom-in" data-aos-delay="200"><img src="assets/img/students/senior-high.jpg" width="800" height="1000" alt="" loading="lazy"></div>
             <div class="program-copy"><p class="program-grade">Grades 11–12</p><h3>Senior High School</h3><p>Choose from ABM, GAS, HUMSS, and STEM.</p></div>
           </a>
         </div>
@@ -112,17 +114,17 @@
 
     <section id="portfolio" class="campus-gallery">
       <div id="facilities" class="container">
-        <div class="section-heading-row">
+        <div class="section-heading-row" data-aos="fade-up">
           <div><h2>Explore our campus</h2><p>Look inside the classrooms, labs, library, and spaces where students learn and spend time together.</p></div>
           <a class="site-button outline glightbox" href="https://www.youtube.com/watch?v=wfFwexKcsqs"><i class="bi bi-play-circle" aria-hidden="true"></i> Watch school video</a>
         </div>
-        <div class="facility-filters" role="group" aria-label="Filter facilities by building">
+        <div class="facility-filters" role="group" aria-label="Filter facilities by building" data-aos="fade-up" data-aos-delay="100">
           <button class="facility-filter" type="button" data-category="all" aria-pressed="true">All facilities</button>
           <button class="facility-filter" type="button" data-category="b1" aria-pressed="false">Building 1</button>
           <button class="facility-filter" type="button" data-category="b2" aria-pressed="false">Building 2</button>
           <button class="facility-filter" type="button" data-category="gl" aria-pressed="false">Ground Level</button>
         </div>
-        <div class="facility-grid">
+        <div class="facility-grid" data-aos="fade-up" data-aos-delay="200">
           <a class="facility-card glightbox" data-category="b1" data-gallery="campus" data-title="Library" href="assets/img/facilities/library.jpeg">
             <img src="assets/img/facilities/library.jpeg" alt="" loading="lazy"><span><strong>Library</strong><small>Building 1</small></span>
           </a>
@@ -171,11 +173,11 @@
 
     <!-- ======= Cta Section ======= -->
     <section id="why-us" class="why-us">
-      <div id="history" class="container-fluid">
+      <div id="history" class="container-fluid" data-aos="fade-up">
         <div class="section-title">
           <h2>History</h2>
         </div>
-        <div class="align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/BGlooong.png");'>&nbsp;</div>
+        <div class="align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/BGlooong.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
         <br>
         <div class="row">
           <div class="row content" style="text-align: justify; margin-left: 1.5px;">
@@ -210,7 +212,7 @@
     </section><!-- End Why Us Section -->
 
     <section id="vandm" class="cta">
-      <div class="container">
+      <div class="container" data-aos="zoom-in">
 
         <div class="row">
           <div class="text-center text-lg-start" style="margin-bottom: 30px;">
@@ -245,7 +247,7 @@
     </section><!-- End Cta Section -->
     <!-- ======= Cta Section ======= -->
     <section id="pta" class="pta">
-      <div id="manifesto" class="container">
+      <div id="manifesto" class="container" data-aos="zoom-in">
 
         <div class="row">
           <div class="text-center text-lg-start" style="margin-bottom: 30px;">
@@ -270,15 +272,15 @@
         <section id="fourpillars" class="services section-bg">
           <div class="container">
 
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-up">
               <h2>four pillars of St. Paul TIC, inc.</h2>
               <p>These are the four founding principles that guide St. Paul TIC in achieving its goals.</p>
             </div>
 
             <div class="row">
-              <div class="col-xl-3 col-md-6 d-flex align-items-stretch">
+              <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                 <div class="icon-box">
-                  <div class=" order-1 order-lg-2 hero-img">
+                  <div class=" order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
                     <img src="assets/img/tuklasan.png" class="img-fluid animated" alt="">
                   </div>
                   <h4 style="text-align: center;">TUKLASAN</h4>
@@ -291,9 +293,9 @@
                 </div>
               </div>
 
-              <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                 <div class="icon-box">
-                  <div class=" order-1 order-lg-2 hero-img">
+                  <div class=" order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
                     <img src="assets/img/aghimuan.png" class="img-fluid animated" alt="">
                   </div>
                   <h4 style="text-align: center;">AGHIMUAN</h4>
@@ -306,9 +308,9 @@
                 </div>
               </div>
 
-              <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
+              <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
                 <div class="icon-box">
-                  <div class=" order-1 order-lg-2 hero-img">
+                  <div class=" order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
                     <img src="assets/img/sipnayan.png" class="img-fluid animated" alt="">
                   </div>
                   <h4 style="text-align: center;">SIPNAYAN</h4>
@@ -319,9 +321,9 @@
                 </div>
               </div>
 
-              <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
+              <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
                 <div class="icon-box">
-                  <div class=" order-1 order-lg-2 hero-img">
+                  <div class=" order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
                     <img src="assets/img/hanasan.png" class="img-fluid animated" alt="">
                   </div>
                   <h4 style="text-align: center;">HANASAN</h4>
@@ -344,13 +346,13 @@
       <div class="container">
 
         <div class="row">
-          <div class="section-title">
+          <div class="section-title" data-aos="fade-up">
             <h2>Memorandum</h2>
           </div>
-          <div class="col-lg-6 align-items-center">
+          <div class="col-lg-6 align-items-center" data-aos="fade-right" data-aos-delay="100">
             <img style="height: 100%; width:auto; margin: auto; padding: 0;" src="assets/img/pages.png" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <p class="fst-italic">
               Learn more about our school policy in order to stay informed.
             </p>
@@ -368,7 +370,7 @@
  <!-- ======= Announcements Section ======= -->
     <section id="announce" class="section-bg">
       <div class="container">
-        <div class="updates-panel">
+        <div class="updates-panel" data-aos="fade-up">
           <div>
             <h2>School updates</h2>
             <p>See the latest announcements and events from St. Paul TIC.</p>
@@ -384,17 +386,17 @@
     <!-- ======= Skills Section ======= -->
     <section id="testimonial" class="section-bg">
       <div class="container">
-        <div class="section-heading-row"><h2>Testimonials</h2></div>
+        <div class="section-heading-row" data-aos="fade-up"><h2>Testimonials</h2></div>
         <div class="testimonial-grid">
-          <figure><blockquote>high quality of education.</blockquote><figcaption><strong>Antonio Feraer Balatar Jr.</strong><span>September 14, 2019</span></figcaption></figure>
-          <figure><blockquote>Great excellent staff Angel and Lena they always help and assist my son Joaquin Asis!!!</blockquote><figcaption><strong>Jonas S. Asis</strong><span>December 7, 2020</span></figcaption></figure>
-          <figure><blockquote>Great Teacher! especially our Maam Elsie.. always on time & willing to assist anytime! Always in a good mood😍</blockquote><figcaption><strong>Tin Tome Flores</strong><span>February 2, 2021</span></figcaption></figure>
+          <figure data-aos="fade-up" data-aos-delay="100"><blockquote>high quality of education.</blockquote><figcaption><strong>Antonio Feraer Balatar Jr.</strong><span>September 14, 2019</span></figcaption></figure>
+          <figure data-aos="fade-up" data-aos-delay="200"><blockquote>Great excellent staff Angel and Lena they always help and assist my son Joaquin Asis!!!</blockquote><figcaption><strong>Jonas S. Asis</strong><span>December 7, 2020</span></figcaption></figure>
+          <figure data-aos="fade-up" data-aos-delay="300"><blockquote>Great Teacher! especially our Maam Elsie.. always on time & willing to assist anytime! Always in a good mood😍</blockquote><figcaption><strong>Tin Tome Flores</strong><span>February 2, 2021</span></figcaption></figure>
         </div>
       </div>
     </section><!-- End Team Section -->
             <!-- ======= Team Section ======= -->
     <section id="team" class="section-bg">
-      <div id="founder" class="container">
+      <div id="founder" class="container" data-aos="fade-up">
         <div class="founder-card">
           <img src="assets/img/team/presidentremulla-nelson.jpg" alt="Engr. Nelson Q. Remulla" loading="lazy">
           <div>
@@ -410,11 +412,11 @@
     <section id="contact" class="contact section-bg">
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title" data-aos="fade-up">
           <h2>Contact the school</h2>
         </div>
 
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class=" col-lg-5 d-flex align-items-stretch">
             <div class="info">
               <div class="address">
@@ -501,27 +503,27 @@
     <section id="faq" class="faq section-bg">
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title" data-aos="fade-up">
           <h2>Frequently Asked Questions</h2>
         </div>
         <div class="requirements-list faq-questions">
-          <details class="requirement" id="faq-list-1" open>
+          <details class="requirement" id="faq-list-1" open data-aos="fade-up" data-aos-delay="100">
             <summary>Until when is the enrollment period?</summary>
             <div class="faq-answer"><span id="enrollmentPeriod">Contact the school office for current enrollment dates and tuition discounts.</span></div>
           </details>
-          <details class="requirement" id="faq-list-2">
+          <details class="requirement" id="faq-list-2" data-aos="fade-up" data-aos-delay="200">
             <summary>Where can I find the school calendar?</summary>
             <div class="faq-answer">Check the <a href="https://www.facebook.com/StPaulTICofficial2019">school’s Facebook page</a> for announcements about the start of classes.</div>
           </details>
-          <details class="requirement" id="faq-list-3">
+          <details class="requirement" id="faq-list-3" data-aos="fade-up" data-aos-delay="300">
             <summary>What is the age requirement for Kindergarten?</summary>
             <div class="faq-answer">To be eligible for our kindergarten program, children must have reached the age of 5 by September 30th. This age requirement ensures that children enrolling in our kindergarten program are developmentally ready for the MATATAG curriculum. Please note that children must meet this age requirement to be considered for enrollment in our kindergarten program.</div>
           </details>
-          <details class="requirement" id="faq-list-4">
+          <details class="requirement" id="faq-list-4" data-aos="fade-up" data-aos-delay="400">
             <summary>Why do new students need to undergo an assessment exam?</summary>
             <div class="faq-answer">At St. Paul TIC, we are dedicated to identifying students' areas of strength and areas where they can further excel and improve. Our primary objective is to provide a well-rounded academic education that fosters growth and success. We are committed to ensuring that students receive a comprehensive learning experience, enabling them to excel in various academic subjects. Our aim is to empower students with the knowledge and skills needed to thrive academically.</div>
           </details>
-          <details class="requirement" id="faq-list-5">
+          <details class="requirement" id="faq-list-5" data-aos="fade-up" data-aos-delay="500">
             <summary>How many sections are there per grade level?</summary>
             <div class="faq-answer">There is about one section per grade level in our school.</div>
           </details>
